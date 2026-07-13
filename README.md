@@ -19,7 +19,7 @@ vehicle_telemetry/
 ## Getting started
 
 1. Download the dataset from Kaggle.
-2. Place the CSV file in `/home/runner/work/vehicle_telemetry/vehicle_telemetry/data/raw/`.
+2. Place the CSV file in `data/raw/`.
 3. Use `src/vehicle_telemetry/dataset.py` to locate and load the raw dataset.
 
 The raw dataset is intentionally not committed to the repository.
