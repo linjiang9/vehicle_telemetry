@@ -11,6 +11,8 @@ vehicle_telemetry/
 ├── data/
 │   ├── processed/
 │   └── raw/
+├── notebooks/
+│   └── telemetry_exploration.ipynb
 ├── src/
 │   └── vehicle_telemetry/
 └── tests/
@@ -21,5 +23,6 @@ vehicle_telemetry/
 1. Download the dataset from Kaggle.
 2. Place the CSV file in `data/raw/`.
 3. Use `src/vehicle_telemetry/dataset.py` to locate and load the raw dataset.
+4. Open `notebooks/telemetry_exploration.ipynb` for an interactive Jupyter workflow.
 
 The raw dataset is intentionally not committed to the repository.
