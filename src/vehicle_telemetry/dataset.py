@@ -3,7 +3,10 @@
 from __future__ import annotations
 
 import csv
+from gettext import install
 from pathlib import Path
+
+import pip
 
 DATASET_SOURCE_URL = "https://www.kaggle.com/datasets/tejalaveti2306/vehicle-maintenance-telemetry-data"
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -31,3 +34,4 @@ def load_dataset(csv_path: Path | None = None) -> list[dict[str, str]]:
     path = csv_path or find_raw_dataset()
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
+
