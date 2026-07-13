@@ -1,4 +1,4 @@
-# vehicle_telemetry
+# Vehicle Maintenance Telemetry Data Analysis
 
 Minimal starter structure for working with the Kaggle
 [Vehicle Maintenance Telemetry Data](https://www.kaggle.com/datasets/tejalaveti2306/vehicle-maintenance-telemetry-data)
